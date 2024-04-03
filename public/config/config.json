@@ -1,0 +1,21 @@
+{
+  "CONTRACT_ADDRESS": "0xae929f210f35cacd1d47d8334578de86ee70966c",
+  "SCAN_LINK": "https://etherscan.io/address/0xae929f210f35cacd1d47d8334578de86ee70966c",
+  "NETWORK": {
+    "NAME": "Rinkeby",
+    "SYMBOL": "ETH",
+    "ID": 4
+  },
+  "NFT_NAME": "Pixelina World",
+  "SYMBOL": "Pixelina World",
+  "MAX_SUPPLY": 10000,
+  "DISPLAY_COST": 0.0169,
+  "GAS_LIMIT": 210000,
+  "MAX_PER_TX": 10,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/pixelina-world",
+  "Telegram": "https://opensea.io/collection/pixelina-world",
+  "Discord": "https://opensea.io/collection/pixelina-world",
+  "Twitter": "https://twitter.com/PixelinaWorld",
+  "SHOW_BACKGROUND": false
+}
