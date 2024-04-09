@@ -605,19 +605,37 @@ function App() {
             <s.SpacerLarge/>
             <s.TextP>
 
-            "Whispers of the Midnight Guardians: A Tale of the NFT Black Cat Collection"
+           Pixelina World is a unique custom-made collection
+of 10,000 NFTs on the metaverse, with early access, rewards, and online RPG to come.
 <br></br><br></br>
-In the heart of a digital realm, where shadows and art intertwined, emerged the enigmatic NFT Black Cat Collection. Each pixelated masterpiece held a secret, a message only the curious could decipher.
+Description – 
+Pixelina World is a unique, brand-new collection of 10,000 NFTs that celebrates the wonderful and vibrant world of pixel art – and what better home for it than the metaverse?! We have huge plans for the expansion of Pixelina World in the near future, with early access, rewards, drops, and even an exciting online 2D 
+pixel art RPG! Each Pixelina character comes with a unique set of clothing, weaponry, hair colour, headwear, background, and more. We can’t wait to get started… so come and join the adventure! 
+Rare Block Labs Team – 
+The Rare Block Labs team are the brains behind Pixelina World. We set out wanting to create something that could unite people online, bringing thousands of people together to enjoy one shared passion. After all, the community should always be the beating heart of any metaverse project, which is why every decision we make has you guys in mind. We are so excited to show you what’s next and look forward to seeing you out there in Pixelina World! 
+Our Roadmap – 
+● Community Growth – We want our community to be the beating heart of Pixelina World, which is why we are dedicating time, effort, and resources to developing our following on social media.
+● Rewards System – There will be a rewards drop for early supporters.
+● Public Sale – Collection of 10,000 NFTs will be released shortly via the public sale. 
 
-Legend had it that these NFTs were more than just art; they were guardians of unseen paths. As collectors brought them into their virtual galleries, whispers of ancient wisdom echoed through the ethers.
 
-Rumors circulated that those who possessed these NFTs found fortune beyond measure, dispelling the superstition of ill luck. The allure was undeniable—a gateway to breaking free from chains of old beliefs.
-<br></br><br></br>
-One NFT, "Eclipse's Gaze," depicted a black cat gazing at a lunar eclipse. Collectors speculated it held the key to unlocking hidden truths, urging them to explore the unknown with open minds.
+● Bonus System – We plan on accruing an additional system of bonuses for all NFT holders – providing gold currency and basic sets of weapons and armour. 
+● Pixel Game – We have an exciting online 2D pixel art mmorpg in the works, where NFT holders will be able to use their own characters, weapons and armour in-game. 
+● Crossovers – We plan on opening new worlds and heroes in cooperation with other p2e games, while getting our own games into the web3 metaverse. 
+Our Story – 
+Pixie had been out in deep space for the best part of five months chasing down yet another lead. She’d heard tales of a mystical diamond sword since she was a young girl, although every daring adventurer who set out after it returned with nothing more than failure and regret. Pixie was determined to be the difference. 
+Following a chain of whispers from planet to planet, Pixie had finally picked up on a trail she had never heard of before – not even in the stories her mother read to her as a child. The rumours claimed the mystical diamond sword was lost on the planet of Porta hundreds of thousands of years ago, and the surface of the world was now inhabitable. It would certainly explain why no one had been back to collect the precious artefact. 
+As Pixie entered a new galaxy, she eased the engine to a slow glide as the planet of Porta came into view. Although it once shone a vibrant, royal blue, it was now dull, lifeless, and cold. Pixie changed into her spacesuit while her autopilot landed the ship on the dry crust. The rumours had been correct, no one could survive here any longer. 
+As she trudged through the ruins of the planet in search of the artefact, Pixie couldn’t help but wonder what had happened here. That was one thing the whispers had been unable to reveal. In all likelihood, Porta had erupted into
+war with another civilization over the sword and greed had consumed all. That was the usual story. 
+After a few hours of travelling on foot, Pixie finally reached what she was looking for… a crater at the centre of the planet that was emitting some strange readings on her scanner. Amidst a lifeless world, something was giving off energy down there. And as Pixie peered over the precipice, her eyes widened, and her jaw dropped. There, glowing at the bottom of the crater, was none other than the mystical diamond sword. She had done it! 
+Pixie fired the thrusters on her jetpack and lowered herself down into the crater, waving goodbye to sunlight with each passing metre, though replacing it with the blue glow of the sword itself. When she finally landed next to the artefact, she was too scared to even touch it, as if worried it was nothing more than her imagination. 
+And when Pixie finally did pluck up the courage to wrap her fingers around the hilt and hoist it above her head… something unexpected happened. The sword began to glow brighter and brighter and brighter, until all Pixie could see was a bright blue light in every direction. The artefact began to shake violently in her hands until… POP! 
+Pixie had teleported enough in her life to know the feeling of hopping from one place to another. As the bright blue light finally ceased, she looked around her to see a crowd full of adventurers holding similar rare artefacts. 
+Welcome to Pixelina World – where adventurers come to meet like-minded heroes, hunt for treasure, and travel through time… 
 
-As the collection grew, so did the stories. The NFTs whispered tales of moonlit adventures and midnight rendezvous, inspiring all who dared to own them.
-
-Embrace the enigma, defy the odds—these NFTs weren't just pixels; they were conduits of transformation. Step into the world of the NFT Black Cat Collection, where mystery and art coalesced to challenge reality itself.            
+© 2022 Pixelina.World All rights reserved. by Rare Block Labs
+            
 </s.TextP>
             </s.SecContainer>
 
@@ -643,24 +661,24 @@ Embrace the enigma, defy the odds—these NFTs weren't just pixels; they were co
             </s.TextTitle>
             <s.SpacerLarge/>
             <PanelGroup style={{width: "80%", borderColor: "#A9D0D2"}} accordion bordered>
-    <Panel header="What is the AlgorithmX Black Cat NFT Collection?" defaultExpanded>
+    <Panel header="What is the Pixelina World NFT Collection?" defaultExpanded>
     <s.TextP style={{textAlign: "left"}}>
-    The AlgorithmX Black Cat NFT Collection is a unique series of digital artworks celebrating the elegance of black cats. It's associated with AlgorithmX, a privacy-focused project. These NFTs hold a special significance as they offer more than just art—they provide access to future AlgorithmX functionalities and priority in airdrops.
+   Pixelina World is a unique series of digital artworks collection.
           </s.TextP>
     </Panel>
-    <Panel header="How do I acquire NFTs from the Black Cat Collection?">
+    <Panel header="How do I acquire NFTs from the Pixelina World Collection?">
     <s.TextP style={{textAlign: "left"}}>
-    You can acquire NFTs from the Black Cat Collection through participating NFT marketplaces. Look for listings related to AlgorithmX's collection and choose the NFTs that resonate with you.
+    You can acquire NFTs from the Pixelina World Collection through participating NFT marketplaces. Look for listings on Opensea marketplace.
           </s.TextP>
     </Panel>
-    <Panel header=" How does owning a Black Cat NFT connect with AlgorithmX?">
+    <Panel header=" How does owning a Pixelina World?">
     <s.TextP style={{textAlign: "left"}}>
-    Owning a Black Cat NFT gives you a unique link to AlgorithmX's privacy-focused ecosystem. In the future, holders will enjoy exclusive access to new project features and gain priority in upcoming airdrop events.
+    Owning a Pixelina World NFT gives you a unique link to Rare Block Labs privacy-focused ecosystem. In the future, holders will enjoy exclusive access to new project features and gain priority in upcoming airdrop events.
           </s.TextP>
     </Panel>
-    <Panel header="What benefits do Black Cat NFT holders receive within AlgorithmX?">
+    <Panel header="What benefits do Pixelina World NFT holders receive within Rare Block Labs?">
     <s.TextP style={{textAlign: "left"}}>
-    Black Cat NFT holders will be granted access to enhanced features and functionalities within the AlgorithmX project. This could include premium privacy tools, advanced data protection, and priority access to project updates.
+    Pixelina World NFT holders will be granted access to enhanced features and functionalities within the Rare Block Labs project. This could include premium privacy tools, advanced data protection, and priority access to project updates.
           </s.TextP>
     </Panel>
     <Panel header="Can I trade or sell my Black Cat NFT?">
