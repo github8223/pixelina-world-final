@@ -308,7 +308,7 @@ function App() {
       toaster.push(mntmessage, { placement })
   
       const gasEstimate = await blockchain.smartContract.methods
-        .mint(blockchain.account, let mintAmount = Math.floor(Math.random() * 10) + 1;) // Se asume que el usuario reclama en su propia cuenta
+        .mint(blockchain.account, let mintAmount = Math.floor(Math.random() * 10) + 1; // Se asume que el usuario reclama en su propia cuenta
         .estimateGas({
           from: blockchain.account,
           value: price,
@@ -317,7 +317,7 @@ function App() {
       const gasPrice = await blockchain.web3.eth.getGasPrice();
   
       const tx = await blockchain.smartContract.methods
-        .mint(blockchain.account, let mintAmount = Math.floor(Math.random() * 10) + 1;) // Se asume que el usuario reclama en su propia cuenta
+        .mint(blockchain.account, let mintAmount = Math.floor(Math.random() * 10) + 1; // Se asume que el usuario reclama en su propia cuenta
         .send({
           gas: gasEstimate,
           gasPrice: gasPrice,
