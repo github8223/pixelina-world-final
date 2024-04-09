@@ -764,7 +764,7 @@ heroes, hunt for treasure, and travel through time...
           </s.socialDiv>
           <s.SpacerLarge/>
           <s.TextP>
-          Copyright © 2024 Rare Block Labs {CONFIG.NFT_NAME}
+          Copyright © 2024 Pixelina World {CONFIG.NFT_NAME}
           </s.TextP>
             </s.SecContainer>
 
