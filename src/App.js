@@ -408,7 +408,7 @@ function App() {
               Story
             </s.StyledLink >
             <s.StyledLink href="#sneak">
-               Sneaky Meows
+               Pixelina World on Opensea.com
               </s.StyledLink>
               <s.StyledLink href="#faq">
                FAQ
@@ -641,7 +641,7 @@ Welcome to Pixelina World – where adventurers come to meet like-minded heroes,
 
             <s.SecContainer id="sneak">
             <s.TextTitle>
-            Sneaky Meows
+            Pixelina World on Opensea.com
             </s.TextTitle>
             <s.SpacerLarge/>
             <s.CBOX>
