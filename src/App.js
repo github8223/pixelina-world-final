@@ -597,7 +597,7 @@ function App() {
             <s.SpacerLarge/>
             <s.TextP>
 
-lorem ipsum
+
 <br></br><br></br>
 Pixelina World is a unique custom-made collection
 of 10,000 NFTs on the metaverse, with early access,
@@ -686,7 +686,7 @@ heroes, hunt for treasure, and travel through time...
 
 © 2022 Pixelina.World All rights reserved. by Rare Block Labs
 <br></br><br></br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.            
+            
 </s.TextP>
             </s.SecContainer>
 
@@ -734,12 +734,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
     </Panel>
     <Panel header="Can I trade or sell my Pixelina World NFT?">
     <s.TextP style={{textAlign: "left"}}>
-    lorem ipsum dalar valar malar havan huarasf afaxvas fafs
+    Yes, you can trade or sell your Pixelina World NFT on compatible NFT marketplaces like Opensea. The ownership of the NFT can be transferred to others, allowing you to participate in the growing NFT market.
           </s.TextP>
     </Panel>
-    <Panel header="what is hashlips">
+    <Panel header="How does owning Pixelina World NFTs contribute to the Rare Block Labs community?">
     <s.TextP style={{textAlign: "left"}}>
-    Yes, you can trade or sell your Pixelina World NFT on compatible NFT marketplaces like Opensea. The ownership of the NFT can be transferred to others, allowing you to participate in the growing NFT market.
+    Owning Pixelina World NFTs not only connects you to Rare Block Labs mission but also strengthens the community. As a holder, you're poised to be an early adopter of new project features and contribute to the growth and success of Rare Block Labs privacy-driven ecosystem.
           </s.TextP>
     </Panel>
   </PanelGroup>
