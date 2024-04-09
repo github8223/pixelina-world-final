@@ -1,7 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { connect } from "./redux/blockchain/blockchainActions";
-import abi from "./abi/abi.json";
 import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled from "styled-components";
@@ -14,7 +13,7 @@ import { Notification, toaster } from 'rsuite';
 import { Loader } from 'rsuite';
 import { Badge } from 'rsuite';
 
-export const truncate = (input, len) =>
+const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
 
 export const StyledButton = styled.button`
@@ -274,76 +273,69 @@ function App() {
     </Notification>
   );
   const [CONFIG, SET_CONFIG] = useState({
-    CONTRACT_ADDRESS: "0xae929f210f35cacd1d47d8334578de86ee70966c",
-    SCAN_LINK: "https://etherscan.io/address/0xae929f210f35cacd1d47d8334578de86ee70966c",
+    CONTRACT_ADDRESS: "",
+    SCAN_LINK: "",
     NETWORK: {
-      NAME: "Ethereum",
-      SYMBOL: "ETH",
-      ID: 1,
+      NAME: "",
+      SYMBOL: "",
+      ID: 0,
     },
-    NFT_NAME: "Pixelina World",
-    SYMBOL: "PXW",
-    MAX_SUPPLY: 10000,
-    DISPLAY_COST: 0.0019,
+    NFT_NAME: "",
+    SYMBOL: "",
+    MAX_SUPPLY: 1,
+    DISPLAY_COST: 0,
     WL_Display: 0,
-    GAS_LIMIT: 145000,
-    MAX_PER_TX: 10,
-    MARKETPLACE: "Opensea",
-    MARKETPLACE_LINK: "https://opensea.io/collection/pixelina-world",
-    Telegram: "https://opensea.io/collection/pixelina-world",
-    Discord: "https://opensea.io/collection/pixelina-world",
-    Twitter: "https://twitter.com/PixelinaWorld",
+    GAS_LIMIT: 0,
+    MAX_PER_TX: 0,
+    MARKETPLACE: "",
+    MARKETPLACE_LINK: "",
+    Telegram: "",
+    Discord: "",
+    Twitter: "",
     SHOW_BACKGROUND: false,
   });
 
-  const claimNFTs = async () => {
-    try {
-      let cost = CONFIG.DISPLAY_COST * tokens;
-      let price = Web3.utils.toWei(cost.toString(), 'ether');
-  
-      setFeedback(`Minting your ${CONFIG.NFT_NAME}...`);
-      setClaimingNft(true);
-      setbrd("2px solid yellow");
-      setbxsh("0px 0px 3px 0px yellow");
-      toaster.push(mntmessage, { placement })
-  
-      const gasEstimate = await blockchain.smartContract.methods
-        .mint(blockchain.account, let mintAmount = Math.floor(Math.random() * 10) + 1; // Se asume que el usuario reclama en su propia cuenta
-        .estimateGas({
-          from: blockchain.account,
-          value: price,
-        });
-  
-      const gasPrice = await blockchain.web3.eth.getGasPrice();
-  
-      const tx = await blockchain.smartContract.methods
-        .mint(blockchain.account, let mintAmount = Math.floor(Math.random() * 10) + 1; // Se asume que el usuario reclama en su propia cuenta
-        .send({
-          gas: gasEstimate,
-          gasPrice: gasPrice,
-          from: blockchain.account,
-          value: price,
-        });
-  
-      console.log(tx);
-      setFeedback(
-        `Congratulations! The ${CONFIG.NFT_NAME} is now yours! Visit Opensea.io to view it.`
-      );
-      toaster.push(txmessage, { placement })
-      setbrd("2px solid green");
-      setbxsh("0px 0px 3px 0px green");
-      setClaimingNft(false);
-      dispatch(fetchData(blockchain.account));
-    } catch (error) {
-      console.error(error);
-      setFeedback("Sorry, something went wrong. Please try again later.");
-      setClaimingNft(false);
-      toaster.push(errmessage, { placement })
-      setbrd("2px solid red");
-      setbxsh("0px 0px 3px 0px red");
-    }
+  const claimNFTs = () => {
+    let cost = CONFIG.DISPLAY_COST * tokens;
+    let price = Web3.utils.toWei(cost.toString(), 'ether');
+    let gasLimit = CONFIG.GAS_LIMIT;
+    let totalGasLimit = String(gasLimit);
+    console.log("Cost: ", price);
+    console.log("Gas limit: ", totalGasLimit);
+    setFeedback(`Minting your ${CONFIG.NFT_NAME}...`);
+    setClaimingNft(true);
+    setbrd("2px solid yellow");
+    setbxsh("0px 0px 3px 0px yellow");
+    toaster.push(mntmessage, { placement })
+    blockchain.smartContract.methods
+      .mint(tokens)
+      .send({
+        gasLimit: String(totalGasLimit),
+        to: CONFIG.CONTRACT_ADDRESS,
+        from: blockchain.account,
+        value: price,
+      })
+      .once("error", (err) => {
+        console.log(err);
+        setFeedback("Sorry, something went wrong please try again later.");
+        setClaimingNft(false);
+        toaster.push(errmessage, { placement })
+        setbrd("2px solid red");
+        setbxsh("0px 0px 3px 0px red");
+      })
+      .then((receipt) => {
+        console.log(receipt);
+        setFeedback(
+          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit Opensea.io to view it.`
+        );
+        toaster.push(txmessage, { placement })
+        setbrd("2px solid green");
+        setbxsh("0px 0px 3px 0px green");
+        setClaimingNft(false);
+        dispatch(fetchData(blockchain.account));
+      });
   };
-  
+
   const decrementtokens = () => {
     let newtokens = tokens - 1;
     if (newtokens < 1) {
@@ -408,7 +400,7 @@ function App() {
               Story
             </s.StyledLink >
             <s.StyledLink href="#sneak">
-               Pixelina World on Opensea.com
+               Sneak Peaks
               </s.StyledLink>
               <s.StyledLink href="#faq">
                FAQ
@@ -420,7 +412,7 @@ function App() {
           <s.HeaderDiv>
           <s.socialDiv>
           <a href={CONFIG.Telegram} target={"_blank"}>
-          <s.Icons src="/config/images/Rarible_Logo.png" alt="telegram" />
+          <s.Icons src="/config/images/telegram.svg" alt="telegram" />
           </a>
             <a href={CONFIG.Twitter} target={"_blank"}>
           <s.Icons src="/config/images/twitter.svg" alt="twitter" />
@@ -429,7 +421,7 @@ function App() {
           <s.Icons src="/config/images/discord.svg" alt="discord" />
           </a>
           <a href={CONFIG.MARKETPLACE_LINK} target={"_blank"}>
-          <s.Icons src="/config/images/ax.png" alt="opensea" />
+          <s.Icons src="/config/images/opensea.svg" alt="opensea" />
           </a>
           </s.socialDiv>
           <WalletBox>
@@ -448,14 +440,14 @@ function App() {
 
         <s.Container flex={1} jc={"center"} ai={"center"}>
           <s.TextTitle>
-            Mint Yours {CONFIG.NFT_NAME}
+            Mint Your {CONFIG.NFT_NAME}
           </s.TextTitle>
 
         </s.Container>
     
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
-        <StyledImg src={"/config/images/11.png"} alt="image" />
+        <StyledImg src={"/config/images/11.jpg"} alt="image" />
         <s.SpacerSmall/>
             <s.Container flex={1} jc={"center"} ai={"center"} >
 
@@ -605,52 +597,26 @@ function App() {
             <s.SpacerLarge/>
             <s.TextP>
 
-           Pixelina World is a unique custom-made collection
-of 10,000 NFTs on the metaverse, with early access, rewards, and online RPG to come.
+lorem ipsum
 <br></br><br></br>
-Description – 
-Pixelina World is a unique, brand-new collection of 10,000 NFTs that celebrates the wonderful and vibrant world of pixel art – and what better home for it than the metaverse?! We have huge plans for the expansion of Pixelina World in the near future, with early access, rewards, drops, and even an exciting online 2D 
-pixel art RPG! Each Pixelina character comes with a unique set of clothing, weaponry, hair colour, headwear, background, and more. We can’t wait to get started… so come and join the adventure! 
-Rare Block Labs Team – 
-The Rare Block Labs team are the brains behind Pixelina World. We set out wanting to create something that could unite people online, bringing thousands of people together to enjoy one shared passion. After all, the community should always be the beating heart of any metaverse project, which is why every decision we make has you guys in mind. We are so excited to show you what’s next and look forward to seeing you out there in Pixelina World! 
-Our Roadmap – 
-● Community Growth – We want our community to be the beating heart of Pixelina World, which is why we are dedicating time, effort, and resources to developing our following on social media.
-● Rewards System – There will be a rewards drop for early supporters.
-● Public Sale – Collection of 10,000 NFTs will be released shortly via the public sale. 
-
-
-● Bonus System – We plan on accruing an additional system of bonuses for all NFT holders – providing gold currency and basic sets of weapons and armour. 
-● Pixel Game – We have an exciting online 2D pixel art mmorpg in the works, where NFT holders will be able to use their own characters, weapons and armour in-game. 
-● Crossovers – We plan on opening new worlds and heroes in cooperation with other p2e games, while getting our own games into the web3 metaverse. 
-Our Story – 
-Pixie had been out in deep space for the best part of five months chasing down yet another lead. She’d heard tales of a mystical diamond sword since she was a young girl, although every daring adventurer who set out after it returned with nothing more than failure and regret. Pixie was determined to be the difference. 
-Following a chain of whispers from planet to planet, Pixie had finally picked up on a trail she had never heard of before – not even in the stories her mother read to her as a child. The rumours claimed the mystical diamond sword was lost on the planet of Porta hundreds of thousands of years ago, and the surface of the world was now inhabitable. It would certainly explain why no one had been back to collect the precious artefact. 
-As Pixie entered a new galaxy, she eased the engine to a slow glide as the planet of Porta came into view. Although it once shone a vibrant, royal blue, it was now dull, lifeless, and cold. Pixie changed into her spacesuit while her autopilot landed the ship on the dry crust. The rumours had been correct, no one could survive here any longer. 
-As she trudged through the ruins of the planet in search of the artefact, Pixie couldn’t help but wonder what had happened here. That was one thing the whispers had been unable to reveal. In all likelihood, Porta had erupted into
-war with another civilization over the sword and greed had consumed all. That was the usual story. 
-After a few hours of travelling on foot, Pixie finally reached what she was looking for… a crater at the centre of the planet that was emitting some strange readings on her scanner. Amidst a lifeless world, something was giving off energy down there. And as Pixie peered over the precipice, her eyes widened, and her jaw dropped. There, glowing at the bottom of the crater, was none other than the mystical diamond sword. She had done it! 
-Pixie fired the thrusters on her jetpack and lowered herself down into the crater, waving goodbye to sunlight with each passing metre, though replacing it with the blue glow of the sword itself. When she finally landed next to the artefact, she was too scared to even touch it, as if worried it was nothing more than her imagination. 
-And when Pixie finally did pluck up the courage to wrap her fingers around the hilt and hoist it above her head… something unexpected happened. The sword began to glow brighter and brighter and brighter, until all Pixie could see was a bright blue light in every direction. The artefact began to shake violently in her hands until… POP! 
-Pixie had teleported enough in her life to know the feeling of hopping from one place to another. As the bright blue light finally ceased, she looked around her to see a crowd full of adventurers holding similar rare artefacts. 
-Welcome to Pixelina World – where adventurers come to meet like-minded heroes, hunt for treasure, and travel through time… 
-
-© 2022 Pixelina.World All rights reserved. by Rare Block Labs
-            
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<br></br><br></br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.            
 </s.TextP>
             </s.SecContainer>
 
             <s.SecContainer id="sneak">
             <s.TextTitle>
-            Pixelina World on Opensea.com
+            Sneak Peaks
             </s.TextTitle>
             <s.SpacerLarge/>
             <s.CBOX>
             <Carousel autoplay className="custom-slider">
-    <img src="/config/images/1.png" />
-    <img src="/config/images/2.png" />
-    <img src="/config/images/3.png" />
-    <img src="/config/images/4.png" />
-    <img src="/config/images/5.png" />
+    <img src="/config/images/1.jpg" />
+    <img src="/config/images/2.jpg" />
+    <img src="/config/images/3.jpg" />
+    <img src="/config/images/4.jpg" />
+    <img src="/config/images/5.jpg" />
   </Carousel>
   </s.CBOX>
               </s.SecContainer>
@@ -661,34 +627,34 @@ Welcome to Pixelina World – where adventurers come to meet like-minded heroes,
             </s.TextTitle>
             <s.SpacerLarge/>
             <PanelGroup style={{width: "80%", borderColor: "#A9D0D2"}} accordion bordered>
-    <Panel header="What is the Pixelina World NFT Collection?" defaultExpanded>
+    <Panel header="what is an nft?" defaultExpanded>
     <s.TextP style={{textAlign: "left"}}>
-   Pixelina World is a unique series of digital artworks collection.
+          lorem ipsum dalar valar malar havan huarasf afaxvas fafs
           </s.TextP>
     </Panel>
-    <Panel header="How do I acquire NFTs from the Pixelina World Collection?">
+    <Panel header="how can i mint">
     <s.TextP style={{textAlign: "left"}}>
-    You can acquire NFTs from the Pixelina World Collection through participating NFT marketplaces. Look for listings on Opensea marketplace.
+    lorem ipsum dalar valar malar havan huarasf afaxvas fafs
           </s.TextP>
     </Panel>
-    <Panel header=" How does owning a Pixelina World?">
+    <Panel header="what is hashlips">
     <s.TextP style={{textAlign: "left"}}>
-    Owning a Pixelina World NFT gives you a unique link to Rare Block Labs privacy-focused ecosystem. In the future, holders will enjoy exclusive access to new project features and gain priority in upcoming airdrop events.
+    lorem ipsum dalar valar malar havan huarasf afaxvas fafs
           </s.TextP>
     </Panel>
-    <Panel header="What benefits do Pixelina World NFT holders receive within Rare Block Labs?">
+    <Panel header="what is hashlips">
     <s.TextP style={{textAlign: "left"}}>
-    Pixelina World NFT holders will be granted access to enhanced features and functionalities within the Rare Block Labs project. This could include premium privacy tools, advanced data protection, and priority access to project updates.
+    lorem ipsum dalar valar malar havan huarasf afaxvas fafs
           </s.TextP>
     </Panel>
-    <Panel header="Can I trade or sell my Pixelina World NFT?">
+    <Panel header="what is hashlips">
     <s.TextP style={{textAlign: "left"}}>
-    Yes, you can trade or sell your Pixelina World NFT on compatible NFT marketplaces like Opensea. The ownership of the NFT can be transferred to others, allowing you to participate in the growing NFT market.
+    lorem ipsum dalar valar malar havan huarasf afaxvas fafs
           </s.TextP>
     </Panel>
-    <Panel header=" How does owning Pixelina World NFTs contribute to the Rare Block Labs community?">
+    <Panel header="what is hashlips">
     <s.TextP style={{textAlign: "left"}}>
-    Owning Pixelina World NFTs not only connects you to Rare Block Labs mission but also strengthens the community. As a holder, you're poised to be an early adopter of new project features and contribute to the growth and success of Rare Block Labs privacy-driven ecosystem.
+    lorem ipsum dalar valar malar havan huarasf afaxvas fafs
           </s.TextP>
     </Panel>
   </PanelGroup>
@@ -699,7 +665,7 @@ Welcome to Pixelina World – where adventurers come to meet like-minded heroes,
             <s.SecContainer id="">
                 <s.socialDiv>
           <a href={CONFIG.Telegram} target={"_blank"}>
-          <s.Icons src="/config/images/Rarible_Logo.png" alt="telegram" />
+          <s.Icons src="/config/images/telegram.svg" alt="telegram" />
           </a>
             <a href={CONFIG.Twitter} target={"_blank"}>
           <s.Icons src="/config/images/twitter.svg" alt="twitter" />
@@ -708,12 +674,12 @@ Welcome to Pixelina World – where adventurers come to meet like-minded heroes,
           <s.Icons src="/config/images/discord.svg" alt="discord" />
           </a>
           <a href={CONFIG.MARKETPLACE_LINK} target={"_blank"}>
-          <s.Icons src="/config/images/ax.png" alt="opensea" />
+          <s.Icons src="/config/images/opensea.svg" alt="opensea" />
           </a>
           </s.socialDiv>
           <s.SpacerLarge/>
           <s.TextP>
-          Copyright © 2024 {CONFIG.NFT_NAME}
+          Copyright © 2022 {CONFIG.NFT_NAME}
           </s.TextP>
             </s.SecContainer>
 
