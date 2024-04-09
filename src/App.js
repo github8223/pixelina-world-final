@@ -284,7 +284,7 @@ function App() {
     NFT_NAME: "Pixelina World",
     SYMBOL: "PXW",
     MAX_SUPPLY: 10000,
-    DISPLAY_COST: 0.0169,
+    DISPLAY_COST: 0.00169,
     WL_Display: 0,
     GAS_LIMIT: 145000,
     MAX_PER_TX: 10,
