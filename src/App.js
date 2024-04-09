@@ -1,3 +1,8 @@
+import React, { useState } from 'react';
+
+function App() {
+const [mintAmount, setMintAmount] = useState(0);
+  
 import React, { useEffect, useState, useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { connect } from "./redux/blockchain/blockchainActions";
@@ -723,6 +728,15 @@ Welcome to Pixelina World – where adventurers come to meet like-minded heroes,
         <s.SpacerMedium />
       </s.Container>
     </s.Screen>
+  );
+}
+
+export default App;
+
+  return (
+    <div>
+      {/* Ваш JSX код здесь */}
+    </div>
   );
 }
 
