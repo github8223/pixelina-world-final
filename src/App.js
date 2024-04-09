@@ -400,7 +400,7 @@ function App() {
               Story
             </s.StyledLink >
             <s.StyledLink href="#sneak">
-               Sneak Peaks
+               Pixelina World on Opensea.io
               </s.StyledLink>
               <s.StyledLink href="#faq">
                FAQ
@@ -599,7 +599,92 @@ function App() {
 
 lorem ipsum
 <br></br><br></br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Pixelina World is a unique custom-made collection
+of 10,000 NFTs on the metaverse, with early access,
+
+rewards, and online RPG to come.
+
+Description –
+Pixelina World is a unique, brand-new collection of 10,000 NFTs that celebrates
+the wonderful and vibrant world of pixel art – and what better home for it than
+the metaverse?! We have huge plans for the expansion of Pixelina World in the
+near future, with early access, rewards, drops, and even an exciting online 2D
+pixel art RPG! Each Pixelina character comes with a unique set of clothing,
+weaponry, hair colour, headwear, background, and more. We can’t wait to get
+started... so come and join the adventure!
+Rare Block Labs Team –
+The Rare Block Labs team are the brains behind Pixelina World. We set out
+wanting to create something that could unite people online, bringing
+thousands of people together to enjoy one shared passion. After all, the
+community should always be the beating heart of any metaverse project, which
+is why every decision we make has you guys in mind. We are so excited to show
+you what’s next and look forward to seeing you out there in Pixelina World!
+Our Roadmap –
+● Community Growth – We want our community to be the beating heart
+of Pixelina World, which is why we are dedicating time, effort, and
+resources to developing our following on social media.
+
+● 1000 Free Mint – We want to put 1,000 of our Pixelina World NFTs up for
+free minting (ERC721A) with a low gas fee at the initial stage.
+● Rewards System – There will be a rewards drop for early supporters.
+● Public Sale – The remaining 9,000 NFTs will be released shortly after via
+the public sale.
+● Bonus System – We plan on accruing an additional system of bonuses for
+all NFT holders – providing gold currency and basic sets of weapons and
+armour.
+● Pixel Game – We have an exciting online 2D pixel art mmorpg in the
+works, where NFT holders will be able to use their own characters,
+weapons and armour in-game.
+● Crossovers – We plan on opening new worlds and heroes in cooperation
+with other p2e games, while getting our own games into the web3
+metaverse.
+
+Our Story –
+Pixie had been out in deep space for the best part of five months chasing down
+yet another lead. She’d heard tales of a mystical diamond sword since she was
+a young girl, although every daring adventurer who set out after it returned
+with nothing more than failure and regret. Pixie was determined to be the
+difference.
+Following a chain of whispers from planet to planet, Pixie had finally picked up
+on a trail she had never heard of before – not even in the stories her mother
+read to her as a child. The rumours claimed the mystical diamond sword was
+lost on the planet of Porta hundreds of thousands of years ago, and the surface
+of the world was now inhabitable. It would certainly explain why no one had
+been back to collect the precious artefact.
+As Pixie entered a new galaxy, she eased the engine to a slow glide as the
+planet of Porta came into view. Although it once shone a vibrant, royal blue, it
+was now dull, lifeless, and cold. Pixie changed into her spacesuit while her
+autopilot landed the ship on the dry crust. The rumours had been correct, no
+one could survive here any longer.
+As she trudged through the ruins of the planet in search of the artefact, Pixie
+couldn’t help but wonder what had happened here. That was one thing the
+whispers had been unable to reveal. In all likelihood, Porta had erupted into
+
+war with another civilization over the sword and greed had consumed all. That
+was the usual story.
+After a few hours of travelling on foot, Pixie finally reached what she was
+looking for... a crater at the centre of the planet that was emitting some
+strange readings on her scanner. Amidst a lifeless world, something was giving
+off energy down there. And as Pixie peered over the precipice, her eyes
+widened, and her jaw dropped. There, glowing at the bottom of the crater, was
+none other than the mystical diamond sword. She had done it!
+Pixie fired the thrusters on her jetpack and lowered herself down into the
+crater, waving goodbye to sunlight with each passing metre, though replacing it
+with the blue glow of the sword itself. When she finally landed next to the
+artefact, she was too scared to even touch it, as if worried it was nothing more
+than her imagination.
+And when Pixie finally did pluck up the courage to wrap her fingers around the
+hilt and hoist it above her head... something unexpected happened. The sword
+began to glow brighter and brighter and brighter, until all Pixie could see was a
+bright blue light in every direction. The artefact began to shake violently in her
+hands until... POP!
+Pixie had teleported enough in her life to know the feeling of hopping from one
+place to another. As the bright blue light finally ceased, she looked around her
+to see a crowd full of adventurers holding similar rare artefacts.
+Welcome to Pixelina World – where adventurers come to meet like-minded
+heroes, hunt for treasure, and travel through time...
+
+© 2022 Pixelina.World All rights reserved. by Rare Block Labs
 <br></br><br></br>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.            
 </s.TextP>
@@ -607,7 +692,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
             <s.SecContainer id="sneak">
             <s.TextTitle>
-            Sneak Peaks
+            Pixelina World on Opensea.io
             </s.TextTitle>
             <s.SpacerLarge/>
             <s.CBOX>
@@ -627,34 +712,34 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
             </s.TextTitle>
             <s.SpacerLarge/>
             <PanelGroup style={{width: "80%", borderColor: "#A9D0D2"}} accordion bordered>
-    <Panel header="what is an nft?" defaultExpanded>
+    <Panel header="What is the Pixelina World NFT Collection?" defaultExpanded>
     <s.TextP style={{textAlign: "left"}}>
-          lorem ipsum dalar valar malar havan huarasf afaxvas fafs
+          Pixelina World is a unique series of digital artworks collection.
           </s.TextP>
     </Panel>
-    <Panel header="how can i mint">
+    <Panel header="How do I acquire NFTs from the Pixelina World Collection">
+    <s.TextP style={{textAlign: "left"}}>
+    You can acquire NFTs from the Pixelina World Collection through participating NFT marketplaces. Look for listings on Opensea marketplace.
+          </s.TextP>
+    </Panel>
+    <Panel header="How does owning a Pixelina World">
+    <s.TextP style={{textAlign: "left"}}>
+    Owning a Pixelina World NFT gives you a unique link to Rare Block Labs privacy-focused ecosystem. In the future, holders will enjoy exclusive access to new project features and gain priority in upcoming airdrop events.
+          </s.TextP>
+    </Panel>
+    <Panel header="What benefits do Pixelina World NFT holders receive within Rare Block Labs?">
+    <s.TextP style={{textAlign: "left"}}>
+    Pixelina World NFT holders will be granted access to enhanced features and functionalities within the Rare Block Labs project. This could include premium privacy tools, advanced data protection, and priority access to project updates.
+          </s.TextP>
+    </Panel>
+    <Panel header="Can I trade or sell my Pixelina World NFT?">
     <s.TextP style={{textAlign: "left"}}>
     lorem ipsum dalar valar malar havan huarasf afaxvas fafs
           </s.TextP>
     </Panel>
     <Panel header="what is hashlips">
     <s.TextP style={{textAlign: "left"}}>
-    lorem ipsum dalar valar malar havan huarasf afaxvas fafs
-          </s.TextP>
-    </Panel>
-    <Panel header="what is hashlips">
-    <s.TextP style={{textAlign: "left"}}>
-    lorem ipsum dalar valar malar havan huarasf afaxvas fafs
-          </s.TextP>
-    </Panel>
-    <Panel header="what is hashlips">
-    <s.TextP style={{textAlign: "left"}}>
-    lorem ipsum dalar valar malar havan huarasf afaxvas fafs
-          </s.TextP>
-    </Panel>
-    <Panel header="what is hashlips">
-    <s.TextP style={{textAlign: "left"}}>
-    lorem ipsum dalar valar malar havan huarasf afaxvas fafs
+    Yes, you can trade or sell your Pixelina World NFT on compatible NFT marketplaces like Opensea. The ownership of the NFT can be transferred to others, allowing you to participate in the growing NFT market.
           </s.TextP>
     </Panel>
   </PanelGroup>
