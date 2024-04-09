@@ -14,7 +14,7 @@ import { Notification, toaster } from 'rsuite';
 import { Loader } from 'rsuite';
 import { Badge } from 'rsuite';
 
-const truncate = (input, len) =>
+export const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
 
 export const StyledButton = styled.button`
