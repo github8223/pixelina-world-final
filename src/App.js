@@ -681,14 +681,14 @@ Welcome to Pixelina World – where adventurers come to meet like-minded heroes,
     Pixelina World NFT holders will be granted access to enhanced features and functionalities within the Rare Block Labs project. This could include premium privacy tools, advanced data protection, and priority access to project updates.
           </s.TextP>
     </Panel>
-    <Panel header="Can I trade or sell my Black Cat NFT?">
+    <Panel header="Can I trade or sell my Pixelina World NFT?">
     <s.TextP style={{textAlign: "left"}}>
-    Yes, you can trade or sell your Black Cat NFT on compatible NFT marketplaces. The ownership of the NFT can be transferred to others, allowing you to participate in the growing NFT market.
+    Yes, you can trade or sell your Pixelina World NFT on compatible NFT marketplaces like Opensea. The ownership of the NFT can be transferred to others, allowing you to participate in the growing NFT market.
           </s.TextP>
     </Panel>
-    <Panel header=" How does owning Black Cat NFTs contribute to the AlgorithmX community?">
+    <Panel header=" How does owning Pixelina World NFTs contribute to the Rare Block Labs community?">
     <s.TextP style={{textAlign: "left"}}>
-    Owning Black Cat NFTs not only connects you to AlgorithmX's mission but also strengthens the community. As a holder, you're poised to be an early adopter of new project features and contribute to the growth and success of AlgorithmX's privacy-driven ecosystem.
+    Owning Pixelina World NFTs not only connects you to Rare Block Labs mission but also strengthens the community. As a holder, you're poised to be an early adopter of new project features and contribute to the growth and success of Rare Block Labs privacy-driven ecosystem.
           </s.TextP>
     </Panel>
   </PanelGroup>
@@ -713,7 +713,7 @@ Welcome to Pixelina World – where adventurers come to meet like-minded heroes,
           </s.socialDiv>
           <s.SpacerLarge/>
           <s.TextP>
-          Copyright © 2023 {CONFIG.NFT_NAME}
+          Copyright © 2024 {CONFIG.NFT_NAME}
           </s.TextP>
             </s.SecContainer>
 
