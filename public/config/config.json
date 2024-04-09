@@ -10,7 +10,7 @@
   "SYMBOL": "PXW",
   "MAX_SUPPLY": 10000,
   "DISPLAY_COST": 0.000169,
-  "GAS_LIMIT": 145000,
+  "GAS_LIMIT": 21000,
   "MAX_PER_TX": 10,
   "MARKETPLACE": "Opensea",
   "MARKETPLACE_LINK": "https://opensea.io/collection/pixelina-world",
