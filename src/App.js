@@ -684,9 +684,9 @@ to see a crowd full of adventurers holding similar rare artefacts.
 Welcome to Pixelina World – where adventurers come to meet like-minded
 heroes, hunt for treasure, and travel through time...
 
-© 2025 Pixelina World All rights reserved. by Rare Block Labs
+© 2025 Pixelina World All rights reserved. by Rare Block Labs.
 
-Buy tokens $PIXW on Pump.fun : https://pump.fun/coin/5zxHGqDTmJ67vbqWARNcvWDNx6nwBvDJiQStPnzsD4Up
+Buy tokens: 💎 $PIXW on Pump.fun : https://pump.fun/coin/5zxHGqDTmJ67vbqWARNcvWDNx6nwBvDJiQStPnzsD4Up
 <br></br><br></br>
             
 </s.TextP>
