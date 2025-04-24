@@ -684,7 +684,7 @@ to see a crowd full of adventurers holding similar rare artefacts.
 Welcome to Pixelina World – where adventurers come to meet like-minded
 heroes, hunt for treasure, and travel through time...
 
-© 2024 Pixelina.World All rights reserved. by Rare Block Labs
+© 2025 Pixelina.World All rights reserved. by Rare Block Labs
 <br></br><br></br>
             
 </s.TextP>
@@ -764,7 +764,7 @@ heroes, hunt for treasure, and travel through time...
           </s.socialDiv>
           <s.SpacerLarge/>
           <s.TextP>
-          Copyright © 2024 {CONFIG.NFT_NAME}
+          Copyright © 2025 {CONFIG.NFT_NAME}
           </s.TextP>
             </s.SecContainer>
 
