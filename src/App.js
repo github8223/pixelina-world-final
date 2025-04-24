@@ -604,7 +604,7 @@ of 10,000 NFTs on the metaverse, with early access,
 
 rewards, and online RPG to come.
 
-Description –
+Description: 
 Pixelina World is a unique, brand-new collection of 10,000 NFTs that celebrates
 the wonderful and vibrant world of pixel art – and what better home for it than
 the metaverse?! We have huge plans for the expansion of Pixelina World in the
@@ -623,23 +623,23 @@ Our Roadmap –
 ● Community Growth – We want our community to be the beating heart
 of Pixelina World, which is why we are dedicating time, effort, and
 resources to developing our following on social media.
-
+● Own PIXW tokens on SOL blockchain for future integration and p2e earnings.
 ● 1000 Free Mint – We want to put 1,000 of our Pixelina World NFTs up for
 free minting (ERC721A) with a low gas fee at the initial stage.
 ● Rewards System – There will be a rewards drop for early supporters.
 ● Public Sale – The remaining 9,000 NFTs will be released shortly after via
 the public sale.
 ● Bonus System – We plan on accruing an additional system of bonuses for
-all NFT holders – providing gold currency and basic sets of weapons and
+all NFT and token holders – providing gold currency and basic sets of weapons and
 armour.
 ● Pixel Game – We have an exciting online 2D pixel art mmorpg in the
-works, where NFT holders will be able to use their own characters,
+works, where NFT and token holders will be able to use their own characters,
 weapons and armour in-game.
 ● Crossovers – We plan on opening new worlds and heroes in cooperation
 with other p2e games, while getting our own games into the web3
 metaverse.
 
-Our Story –
+Our Story: 
 Pixie had been out in deep space for the best part of five months chasing down
 yet another lead. She’d heard tales of a mystical diamond sword since she was
 a young girl, although every daring adventurer who set out after it returned
