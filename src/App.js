@@ -599,12 +599,9 @@ function App() {
 
 
 <br></br><br></br>
-Pixelina World is a unique custom-made collection
-of 10,000 NFTs on the metaverse, with early access,
-
-rewards, and online RPG to come.
-
-Description: 
+Pixelina World is a unique metaverse with custom-made collection
+of 10,000 NFT's, interchangeable PIXW tokens on SOL blockchain, with early access,
+rewards, and online MMORPG to come.
 Pixelina World is a unique, brand-new collection of 10,000 NFTs that celebrates
 the wonderful and vibrant world of pixel art – and what better home for it than
 the metaverse?! We have huge plans for the expansion of Pixelina World in the
