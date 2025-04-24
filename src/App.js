@@ -686,7 +686,7 @@ heroes, hunt for treasure, and travel through time...
 
 © 2025 Pixelina World All rights reserved. by Rare Block Labs.
 
-Buy tokens: 💎 $PIXW on Pump.fun : https://pump.fun/coin/5zxHGqDTmJ67vbqWARNcvWDNx6nwBvDJiQStPnzsD4Up
+Buy tokens: 💎 PIXW on Pump.fun : https://pump.fun/coin/5zxHGqDTmJ67vbqWARNcvWDNx6nwBvDJiQStPnzsD4Up
 <br></br><br></br>
             
 </s.TextP>
@@ -727,21 +727,23 @@ Buy tokens: 💎 $PIXW on Pump.fun : https://pump.fun/coin/5zxHGqDTmJ67vbqWARNcv
     <Panel header="How does owning a Pixelina World">
     <s.TextP style={{textAlign: "left"}}>
     Owning a Pixelina World NFT gives you a unique link to Rare Block Labs privacy-focused ecosystem. In the future, holders will enjoy exclusive access to new project features and gain priority in upcoming airdrop events.
+    Also you can own PIXW token on SOL blockchain for future integration and p2e earnings. Buy tokens here: 💎 PIXW on Pump.fun : https://pump.fun/coin/5zxHGqDTmJ67vbqWARNcvWDNx6nwBvDJiQStPnzsD4Up
           </s.TextP>
     </Panel>
-    <Panel header="What benefits do Pixelina World NFT holders receive within Rare Block Labs?">
+    <Panel header="What benefits do Pixelina World NFT's and PIXW tokens holders receive within Rare Block Labs?">
     <s.TextP style={{textAlign: "left"}}>
-    Pixelina World NFT holders will be granted access to enhanced features and functionalities within the Rare Block Labs project. This could include premium privacy tools, advanced data protection, and priority access to project updates.
+    Pixelina World NFT's and $PIXW tokens holders will be granted access to enhanced features and functionalities within the Rare Block Labs project. This could include premium privacy tools, advanced data protection, and priority access to project updates.
           </s.TextP>
     </Panel>
-    <Panel header="Can I trade or sell my Pixelina World NFT?">
+    <Panel header="Can I trade or sell my Pixelina World NFT and PIXW tokens?">
     <s.TextP style={{textAlign: "left"}}>
     Yes, you can trade or sell your Pixelina World NFT on compatible NFT marketplaces like Opensea. The ownership of the NFT can be transferred to others, allowing you to participate in the growing NFT market.
+    Also you can trade your PIXW token on Pump.fun exchange. Buy tokens here: 💎 PIXW on Pump.fun : https://pump.fun/coin/5zxHGqDTmJ67vbqWARNcvWDNx6nwBvDJiQStPnzsD4Up
           </s.TextP>
     </Panel>
-    <Panel header="How does owning Pixelina World NFTs contribute to the Rare Block Labs community?">
+    <Panel header="How does owning Pixelina World NFTs and PIXW tokens contribute to the Rare Block Labs community?">
     <s.TextP style={{textAlign: "left"}}>
-    Owning Pixelina World NFTs not only connects you to Rare Block Labs mission but also strengthens the community. As a holder, you're poised to be an early adopter of new project features and contribute to the growth and success of Rare Block Labs privacy-driven ecosystem.
+    Owning Pixelina World NFTs and PIXW tokens not only connects you to Rare Block Labs mission but also strengthens the community. As a holder, you're poised to be an early adopter of new project features and contribute to the growth and success of Rare Block Labs privacy-driven ecosystem.
           </s.TextP>
     </Panel>
   </PanelGroup>
