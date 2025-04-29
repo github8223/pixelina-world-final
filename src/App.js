@@ -731,7 +731,7 @@ weaponry, hair colour, headwear, background, and more thru DApp: <a href="https:
     <Panel header="How does owning a Pixelina World">
     <s.TextP style={{textAlign: "left"}}>
     Owning a Pixelina World NFT gives you a unique link to Rare Block Labs privacy-focused ecosystem. In the future, holders will enjoy exclusive access to new project features and gain priority in upcoming airdrop events.
-    Also you can own PIXW token on SOL blockchain for future integration and p2e earnings. Buy tokens here: 💎 PIXW on Pump.fun : https://pump.fun/coin/5zxHGqDTmJ67vbqWARNcvWDNx6nwBvDJiQStPnzsD4Up
+    Also you can own PIXW token on SOL blockchain for future integration and p2e earnings. Buy tokens here: 💎 PIXW on Pump.fun : <a href="https://pump.fun/coin/5zxHGqDTmJ67vbqWARNcvWDNx6nwBvDJiQStPnzsD4Up" target="_blank">https://pump.fun/coin/5zxHGqDTmJ67vbqWARNcvWDNx6nwBvDJiQStPnzsD4Up</a>
           </s.TextP>
     </Panel>
     <Panel header="What benefits do Pixelina World NFT's and PIXW tokens holders receive within Rare Block Labs?">
