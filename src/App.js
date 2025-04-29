@@ -715,9 +715,11 @@ Buy tokens: 💎 PIXW on Pump.fun : https://pump.fun/coin/5zxHGqDTmJ67vbqWARNcvW
             <PanelGroup style={{width: "80%", borderColor: "#A9D0D2"}} accordion bordered>
     <Panel header="What is the Pixelina World metaverse?" defaultExpanded>
     <s.TextP style={{textAlign: "left"}}>
-          #RareBlockLabs build a #Metaverse not on rented land @PixelinaWorld
- is our digital DNA is stored PERMANENTLY and privately with @IPFS
- 🛰, $PIXW tokens and ZKps. No servers, no censorship, total ownership.🔑🏛 Future's written by the many, not the few. Build your digital freedom..
+          RareBlockLabs build a Metaverse not on rented land. PixelinaWorld
+ is our digital DNA is stored PERMANENTLY and privately with IPFS
+, PIXW tokens and (ZKPs)—a method for one party to cryptographically prove to another that they possess knowledge about a piece of information without revealing the actual underlying information.
+ In the context of blockchain networks, the only information revealed on-chain by a ZKP is that some piece of hidden information is valid and known by the prover with a high degree of certainty. 
+ No servers, no censorship, total ownership.🔑🏛 Future's written by the many, not the few. Build your digital freedom..
           </s.TextP>
     </Panel>
     <Panel header="How do I acquire NFTs from the Pixelina World Collection">
