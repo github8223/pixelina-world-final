@@ -599,10 +599,6 @@ function App() {
 
 
 <br></br><br></br>
-             #RareBlockLabs build a #Metaverse not on rented land @PixelinaWorld
- is our digital DNA is stored PERMANENTLY and privately with @IPFS
- 🛰, $PIXW tokens and ZKps. No servers, no censorship, total ownership.🔑🏛 Future's written by the many, not the few. Build your digital freedom.
-              
 Pixelina World is a unique metaverse with custom-made collection
 of 10,000 NFT's, interchangeable PIXW tokens on SOL blockchain, with early access,
 rewards, and online MMORPG to come.
@@ -685,7 +681,9 @@ to see a crowd full of adventurers holding similar rare artefacts.
 Welcome to Pixelina World – where adventurers come to meet like-minded
 heroes, hunt for treasure, and travel through time...
 
-© 2025 Pixelina World All rights reserved. by Rare Block Labs.
+© 2025 Pixelina World All rights reserved. by Rare Block Labs. #RareBlockLabs build a #Metaverse not on rented land @PixelinaWorld
+ is our digital DNA is stored PERMANENTLY and privately with @IPFS
+ 🛰, $PIXW tokens and ZKps. No servers, no censorship, total ownership.🔑🏛 Future's written by the many, not the few. Build your digital freedom.
 
 Buy tokens: 💎 PIXW on Pump.fun : https://pump.fun/coin/5zxHGqDTmJ67vbqWARNcvWDNx6nwBvDJiQStPnzsD4Up
 <br></br><br></br>
