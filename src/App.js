@@ -724,7 +724,7 @@ Buy tokens: 💎 PIXW on Pump.fun : https://pump.fun/coin/5zxHGqDTmJ67vbqWARNcvW
     <Panel header="How do I acquire NFTs from the Pixelina World Collection">
     <s.TextP style={{textAlign: "left"}}>
     You can acquire NFTs from the Pixelina World collection through participating NFT marketplaces. Look for listings on Opensea marketplace and other auction. Also you can mint your rare Pixelina World NFT's with a unique set of clothing,
-weaponry, hair colour, headwear, background, and more thru DApp: https://pixelina-world-final.app 
+weaponry, hair colour, headwear, background, and more thru DApp: https://pixelina-world-final.vercel.app 
    
           </s.TextP>
     </Panel>
