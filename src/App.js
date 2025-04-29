@@ -681,9 +681,8 @@ to see a crowd full of adventurers holding similar rare artefacts.
 Welcome to Pixelina World – where adventurers come to meet like-minded
 heroes, hunt for treasure, and travel through time...
 
-© 2025 Pixelina World All rights reserved. by Rare Block Labs. #RareBlockLabs build a #Metaverse not on rented land @PixelinaWorld
- is our digital DNA is stored PERMANENTLY and privately with @IPFS
- 🛰, $PIXW tokens and ZKps. No servers, no censorship, total ownership.🔑🏛 Future's written by the many, not the few. Build your digital freedom.
+© 2025 Pixelina World All rights reserved. by Rare Block Labs. RareBlockLabs build a Metaverse not on rented land. PixelinaWorld
+ is our digital DNA is stored PERMANENTLY and privately with IPFS, PIXW tokens and ZKps. No servers, no censorship, total ownership. 🔑🏛 Future's written by the many, not the few. Build your digital freedom.
 
 Buy tokens: 💎 PIXW on Pump.fun : https://pump.fun/coin/5zxHGqDTmJ67vbqWARNcvWDNx6nwBvDJiQStPnzsD4Up
 <br></br><br></br>
@@ -717,9 +716,9 @@ Buy tokens: 💎 PIXW on Pump.fun : https://pump.fun/coin/5zxHGqDTmJ67vbqWARNcvW
     <s.TextP style={{textAlign: "left"}}>
           RareBlockLabs build a Metaverse not on rented land. PixelinaWorld
  is our digital DNA is stored PERMANENTLY and privately with IPFS
-, PIXW tokens and (ZKPs)—a method for one party to cryptographically prove to another that they possess knowledge about a piece of information without revealing the actual underlying information.
+, PIXW tokens and (ZKPs) - a method for one party to cryptographically prove to another that they possess knowledge about a piece of information without revealing the actual underlying information.
  In the context of blockchain networks, the only information revealed on-chain by a ZKP is that some piece of hidden information is valid and known by the prover with a high degree of certainty. 
- No servers, no censorship, total ownership.🔑🏛 Future's written by the many, not the few. Build your digital freedom..
+ No servers, no censorship, total ownership. 🔑🏛 Future's written by the many, not the few. Build your digital freedom..
           </s.TextP>
     </Panel>
     <Panel header="How do I acquire NFTs from the Pixelina World Collection">
