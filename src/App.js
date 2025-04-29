@@ -713,9 +713,11 @@ Buy tokens: 💎 PIXW on Pump.fun : https://pump.fun/coin/5zxHGqDTmJ67vbqWARNcvW
             </s.TextTitle>
             <s.SpacerLarge/>
             <PanelGroup style={{width: "80%", borderColor: "#A9D0D2"}} accordion bordered>
-    <Panel header="What is the Pixelina World NFT Collection?" defaultExpanded>
+    <Panel header="What is the Pixelina World metaverse?" defaultExpanded>
     <s.TextP style={{textAlign: "left"}}>
-          Pixelina World is a unique series of digital artworks collection.
+          #RareBlockLabs build a #Metaverse not on rented land @PixelinaWorld
+ is our digital DNA is stored PERMANENTLY and privately with @IPFS
+ 🛰, $PIXW tokens and ZKps. No servers, no censorship, total ownership.🔑🏛 Future's written by the many, not the few. Build your digital freedom..
           </s.TextP>
     </Panel>
     <Panel header="How do I acquire NFTs from the Pixelina World Collection">
