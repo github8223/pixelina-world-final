@@ -684,7 +684,7 @@ heroes, hunt for treasure, and travel through time...
 © 2025 Pixelina World All rights reserved. by Rare Block Labs. #RareBlockLabs build a Metaverse not on rented land. @PixelinaWorld
  is our digital DNA is stored PERMANENTLY and privately with IPFS, $PIXW tokens and ZKps. No servers, no censorship, total ownership. 🔑🏛 Future's written by the many 🌎 , not the few. Build your digital freedom now.
 
-Buy tokens: 💎 PIXW on Pump.fun : <a href="https://pump.fun/coin/5zxHGqDTmJ67vbqWARNcvWDNx6nwBvDJiQStPnzsD4Up"</a>
+Buy tokens: 💎 PIXW on Pump.fun : https://pump.fun/coin/5zxHGqDTmJ67vbqWARNcvWDNx6nwBvDJiQStPnzsD4Up
 <br></br><br></br>
             
 </s.TextP>
