@@ -724,7 +724,7 @@ Buy tokens: 💎 PIXW on Pump.fun : <a href="https://pump.fun/coin/5zxHGqDTmJ67v
     <Panel header="How do I acquire NFTs from the Pixelina World Collection">
     <s.TextP style={{textAlign: "left"}}>
     You can acquire NFTs from the Pixelina World collection through participating NFT marketplaces. Look for listings on Opensea marketplace and other auction. Also you can mint your rare Pixelina World NFT's with a unique set of clothing,
-weaponry, hair colour, headwear, background, and more thru DApp: https://pixelina-world-final.vercel.app 
+weaponry, hair colour, headwear, background, and more thru DApp: <a href="https://pixelina-world-final.vercel.app"</a>
    
           </s.TextP>
     </Panel>
@@ -742,7 +742,7 @@ weaponry, hair colour, headwear, background, and more thru DApp: https://pixelin
     <Panel header="Can I trade or sell my Pixelina World NFT and PIXW tokens?">
     <s.TextP style={{textAlign: "left"}}>
     Yes, you can trade or sell your Pixelina World NFT on compatible NFT marketplaces like Opensea. The ownership of the NFT can be transferred to others, allowing you to participate in the growing NFT market.
-    Also you can trade your PIXW token on Pump.fun exchange. Buy tokens here: 💎 PIXW on Pump.fun : https://pump.fun/coin/5zxHGqDTmJ67vbqWARNcvWDNx6nwBvDJiQStPnzsD4Up
+    Also you can trade your PIXW token on Pump.fun exchange. Buy tokens here: 💎 PIXW on Pump.fun : <a href="https://pump.fun/coin/5zxHGqDTmJ67vbqWARNcvWDNx6nwBvDJiQStPnzsD4Up"</a>
           </s.TextP>
     </Panel>
     <Panel header="How does owning Pixelina World NFTs and PIXW tokens contribute to the Rare Block Labs community?">
