@@ -412,7 +412,7 @@ function App() {
           <s.HeaderDiv>
           <s.socialDiv>
           <a href={CONFIG.Telegram} target={"_blank"}>
-          <s.Icons src="/config/images/telegram.svg" alt="telegram" />
+          <s.Icons src="/config/images/telegram.svg" alt="Telegram" />
           </a>
             <a href={CONFIG.Twitter} target={"_blank"}>
           <s.Icons src="/config/images/twitter.svg" alt="twitter" />
